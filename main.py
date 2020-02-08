@@ -9,6 +9,8 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
+
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 
@@ -43,8 +45,8 @@ dataset.describe()
 
 dataset.plot(x='Hours', y='Scores', style='o')
 plt.title('Hours vs Percentage')
-plt.xlabel('Hours Studied')
-plt.ylabel('Percentage Score')
+plt.xlabel('Number of hours studied')
+plt.ylabel('Score in percentage')
 plt.show()
 
 
